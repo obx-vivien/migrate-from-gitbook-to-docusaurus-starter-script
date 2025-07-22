@@ -1,5 +1,5 @@
-# migrate-from-gitbook-to-docusaurus-starter
-As we migrated from Github to Docusaurus, I wanted to share the script, the AI and I developed to convert the MD files into MDX files, so you can start from there and save time and (AI) costs.
+# migrate-from-gitbook-to-docusaurus-starter-script
+As we migrated from Github to Docusaurus, I wanted to share the script, the AI and I developed to automatically convert the MD files into MDX files, so you can start from there and save time and (AI) costs.
 
 Why not just start from scratch with an AI?
 Because it likely will take a while to get all files error-free and this way, you at the least get a headstart (and save your time, and AI costs / resources too - it is just more sustainable).
