@@ -19,9 +19,11 @@ Try it and see how long it takes for your files... if you don't have that many, 
 --> move your images and logo under static\img\
 --> You can test it with "npm start" from your console, and build your static html files with "npm run build"
 
-Notes:
+**Important Notes:**
 * The script will not catch all corner cases (just the ones we had... like <--> as part of image alt tags... ;)), so, it will depend on your Gitbook docs if it will immediately convert all files without errors
 * There will be anchor tag errors you will only see once you build the static html files. It will not stop the build and typically be resolved by Docusaurus, but they show up as warnings when building
 * For Docusaurus images should be named with small letters only (!) and not use spaces --> So, if you have this in Gitbook, you will need to change the image names 
 * Generally, to work out-of-the-box with Docusaurus: Your logos and favicon should be under static\img and your other images under static\img\assets
 
+**Prompt tipps, in case you need to adapt the script:**
+* Whatever you need to do, add: "Please read the whole script carefully first and find all related / relevant parts. If there is a function that should catch this, but doesn't or works on related issues, try to find a fix that extends this rather than adding a new functionality. Also, do find the most minimal fix possible. Don't change anything else, just focus on the fix. Be mindful of the order of function calls at the end, as this impacts the outcome." 
