@@ -7,7 +7,7 @@ Because it likely will take a while to get all files error-free and this way, yo
 **Why not just have the AI manually convert each file?**
 Try it and see how long it takes for your files... if you don't have that many, it might be an option. Otherwise, it will be a lot of work and way more out of your control.
 
-**To use the script, you need to have Python isntalled and follow these steps:**
+**To use the script, you need to have Python installed and follow these steps:**
 1. Install Docusaurus
 2. Download your Gitbook MD files into a directory next to the "website" directory of Docusaurus
 3. Delete the SUMMARY.md file (it is Gitbook specific)
